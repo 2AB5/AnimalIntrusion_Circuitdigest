@@ -1,0 +1,25 @@
+# Core Machine Learning Libraries
+torch==2.3.1
+torchvision==0.18.1
+
+# Data Processing
+numpy==1.26.4
+Pillow==10.4.0
+
+# Quantization-aware Training and Compression
+torchquantum
+quantization
+
+# Optimization and Training Utilities
+scikit-learn==1.0.2
+matplotlib==3.5.1
+tqdm==4.64.1
+
+# YAML for loading schedules and policies
+PyYAML==6.0.1
+
+# Logging and Visualization
+tensorboard==2.17.0
+
+# OpenCV for image pre-processing and data augmentation
+opencv-python==4.10.0.84
