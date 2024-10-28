@@ -1,0 +1,16 @@
+###################################################################################################
+# Training Schedule for Elephant vs Non-Elephant CNN Model
+###################################################################################################
+
+lr_schedulers:
+  training_lr:
+    class: MultiStepLR
+    milestones: [10, 15, 20, 25, 26, 28, 30, 32, 34]  # Milestones for adjusting the learning rate
+    gamma: 0.5  # Learning rate reduced by half at each milestone
+
+policies:
+  - lr_scheduler:
+      instance_name: training_lr
+    starting_epoch: 0  # Start applying the learning rate schedule from epoch 0
+    ending_epoch: 35  # Ends at epoch 35
+    frequency: 1  # The schedule will be checked and applied every epoch
