@@ -38,14 +38,14 @@ The CNN model consists of the following layers:
     Output Layer:
         Number of Units: 2 (for Elephant and Non-Elephant classification)
         Activation: Softmax
-
+![LeNet-Representation](https://github.com/2AB5/AnimalIntrusion_Circuitdigest/blob/main/CNN%20Model/LeNet.png)<br/>
 Training Details
 
     Loss Function: CrossEntropyLoss
     Optimizer: Adam with learning rate 0.001
     Dataset: A custom dataset containing labeled images of elephants and non-elephants, structured into training, validation, and test sets.
 
-Datesets used 
-    [Animals10 - Alessiocorrado99](https://www.kaggle.com/datasets/alessiocorrado99/animals10) \\
-    [Sri-lankan-wild-elephant-dataset - gunarakulangr](https://www.kaggle.com/datasets/gunarakulangr/sri-lankan-wild-elephant-dataset) \\
-    [Github.com/Thisun](https://github.com/ThisunT/Elephant-Identification-System/tree/master/back-end/retraining/dataset)
+Datesets used <br/>
+    [Animals10 - Alessiocorrado99](https://www.kaggle.com/datasets/alessiocorrado99/animals10)<br/>
+    [Sri-lankan-wild-elephant-dataset - gunarakulangr](https://www.kaggle.com/datasets/gunarakulangr/sri-lankan-wild-elephant-dataset)<br/>
+    [Github.com/Thisun](https://github.com/ThisunT/Elephant-Identification-System/tree/master/back-end/retraining/dataset)<br/>
